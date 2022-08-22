@@ -1,0 +1,29 @@
+.navbar{
+    margin-top: 40px;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                padding-left: 15px;
+                padding-right: 15px;
+                text-transform: capitalize;
+                @include fonts( 'Inter', 400, 18px, $para_color);
+                transition: all linear .3s;
+                &:hover{
+                    color: $hover_color;
+                    font-weight: 700;
+                }
+            }
+        }
+    } button{
+        background-color: $primary_bgcolor;
+        @include pgap(15px, 15px, 42px, 42px);
+        border: none;
+        border-radius: 10px;
+        @include fonts( 'Inter', 600, 20px, #fff);
+        text-transform: capitalize;
+        transition: all linear .3s;
+        &:hover{
+            transform: scale(102%);
+        }
+    }
+}

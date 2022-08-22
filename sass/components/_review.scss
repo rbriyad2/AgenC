@@ -1,0 +1,121 @@
+#review {
+    .row {
+        .review-fast-content {
+            h2 {
+                @include fonts('Inter', 700, 45px, $heading-color);
+                line-height: 54px;
+                @include mgap(150px, 20px, 0, 100px);
+            }
+
+            p {
+                @include fonts('Inter', 400, 16px, $para-color);
+                line-height: 26px;
+                padding-right: 120px;
+            }
+        }
+
+        .left-bottom-item {
+            .item1 {
+                .img-content {
+                    margin-bottom: 20px;
+                }
+
+                padding-top: 85px;
+
+                .left-text {
+                    h2 {
+                        @include fonts('Inter', 700, 25px, $heading-color);
+                        line-height: 30px;
+                    }
+
+                    p {
+                        @include fonts('Inter', 400, 16px, $para-color);
+                        line-height: 26px;
+                    }
+                }
+            }
+
+            .item2 {
+                padding-top: 117px;
+
+                .img-content {
+                    margin-bottom: 20px;
+                }
+
+                .left-text {
+                    h2 {
+                        @include fonts('Inter', 700, 25px, $heading-color);
+                        line-height: 30px;
+                    }
+
+                    p {
+                        @include fonts('Inter', 400, 16px, $para-color);
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+        .item3{
+            margin-left: 185px;
+            .img-content{
+
+            }
+            h2 {
+                @include fonts('Inter', 700, 25px, $heading-color);
+                line-height: 30px;
+            }
+
+            p {
+                @include fonts('Inter', 400, 16px, $para-color);
+                line-height: 26px;
+                width: 340px;
+            }
+        }
+
+        .item-right {
+            margin-top: 229px;
+
+            .right-content {
+                .right-shape {
+                    background-color: $primary_bgcolor;
+                    width: 188px;
+                    height: 188px;
+                    border-radius: 0px 0px 0px 100px;
+                    transform: rotate(-180deg);
+                    @include mgap(161px, 0, 28px, 0);
+                }
+            }
+            .right-content2{
+                margin-top: 27px;
+                .left-shape {
+                    background-color: $green;
+                    width: 257px;
+                    height: 236px;
+                    border-radius: 0px 0px 100px 0px;
+                    transform: rotate(90deg);
+                    margin-top: 10px;
+                    
+                }
+
+            }
+        }
+    }
+
+    padding-bottom: 96px;
+
+    .header {
+        @include pgap(150px, 50px, 0, 0);
+
+        h2 {
+            @include fonts('Inter', 700, 45px, $heading-color);
+            line-height: 54px;
+        }
+
+        p {
+            @include fonts('Inter', 400, 16px, $para-color);
+            line-height: 26px;
+            width: 620px;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+#banner{
+    padding-bottom: 150px;
+    .banner-conetent{
+        h1{
+            padding-top: 225px;
+            @include fonts('Inter', 700, 75px, $heading_color);
+            line-height: 120%;
+        }
+        p{
+            @include fonts('Inter', 400, 16px, $para_color);
+            line-height: 26px;
+            padding-right: 30px;
+        }
+        button{
+            background-color: $primary_bgcolor;
+            @include pgap(15px, 15px, 42px, 42px);
+            border: none;
+            border-radius: 10px;
+            @include fonts( 'Inter', 600, 20px, #fff);
+            text-transform: capitalize;
+            margin-top:5px;
+            transition: all linear .3s;
+            &:hover{
+                transform: scale(102%);
+            }
+        }
+    }
+    .banner-right{
+        padding-left: 100px;
+        .left{
+            width: 122px;
+            height: 122px;
+            background-color: $yellow;
+            margin-top: 185px;
+            margin-left: 90px;
+        }
+        .right{
+            padding-left: 20px;
+            picture{
+                img{
+                    margin-top: 80px;
+                    position: relative;
+                }
+            }
+        }
+        .end{
+            &::after{
+                position: absolute;
+                width: 102px;
+                height: 102px;
+                background-color: $green;
+                content: '';
+                transform: rotate(-90deg);
+                border-radius: 0px 0px 0px 100px;
+                top: 282px;
+                right: 230px;
+            }
+        }
+    }
+    .banner-right-bottm{
+        padding-top: 25px;
+        .ban-left{
+            picture{
+                img{
+                    @include pgap(0, 0, 50px, 25px);
+                }
+            }
+            .img-bottom-shape{
+                background-color: $primary_bgcolor;
+                border-radius: 0px 0px 0px 100px;
+                width: 205px;
+                height: 205px;
+                margin-left: 106px;
+                margin-top: 36px;
+            }
+        }
+        .ban-right{
+
+        }
+    }
+}

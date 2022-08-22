@@ -1,0 +1,47 @@
+#recent-work {
+    background-color: $secondary_bgcolor;
+    padding-bottom: 184px;
+
+    .header {
+        @include pgap(150px, 72px, 0, 0);
+        h2 {
+            @include fonts('Inter', 700, 45px, $heading_color);
+            line-height: 54px;
+        }
+
+        p {
+            @include fonts('Inter', 400, 16px, $para_color);
+            line-height: 26px;
+            width: 620px;
+            margin: 0 auto;
+        }
+    }
+
+    .row {
+        .recent-work-item {
+            background-color: #fff;
+            border-radius: 20px;
+            transition: all linear .4s;
+            &:hover{
+                cursor: pointer;
+                transform: scale(103%);
+            }
+            .recent-work-img{
+
+            }
+            .recent-work-content{
+                @include pgap(30px, 30px, 42px, 42px);
+                text-align: center;
+                h2{
+                    @include fonts('Inter', 700, 20px, $heading_color);
+                    line-height: 24px;
+                }
+                p{
+                    @include fonts('Inter', 400, 16px, $para_color);
+                    line-height: 26px;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
