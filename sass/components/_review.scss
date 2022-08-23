@@ -124,68 +124,15 @@
 
     .review-item {
         justify-content: space-between;
+        overflow-x: hidden;
         .one{
-            margin-top: 160px
+            
         }
         .three{
-            margin-top: 160px
+            
         }
         .review-zero {
             @include pgap(20px, 20px, 15px, 15px);
-            transition: all linear .3s;
-            &:hover {
-                background: #FFFFFF;
-                box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
-                border-radius: 20px;
-                transform: scale(102%);
-            }
-
-            .review-one {
-
-
-
-                i {
-                    font-size: 40px;
-                    color: rgba(106, 77, 244, 0.1);
-                }
-
-                p {
-                    @include fonts('Inter', 400, 16px, $para-color);
-                    line-height: 26px;
-                }
-
-                img {
-                    margin-bottom: 30px;
-                }
-
-                .review-man {
-                    img {
-                        width: 47px;
-                        height: 47px;
-                        border-radius: 50%;
-                        margin-right: 20px;
-                        cursor: pointer;
-
-                    }
-
-                    .review-title {
-                        h3 {
-                            @include fonts('Inter', 600, 20px, $heading-color);
-                            line-height: 120%;
-                            cursor: pointer;
-                        }
-
-                        p {
-                            @include fonts('Inter', 400, 16px, $para-color);
-                            line-height: 26px;
-                        }
-                    }
-                }
-            }
-        }
-        .review-zero2 {
-            @include pgap(20px, 20px, 15px, 15px);
-            margin-bottom: 155px;
             transition: all linear .3s;
             &:hover {
                 background: #FFFFFF;
