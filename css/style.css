@@ -458,6 +458,114 @@ html {
   width: 620px;
   margin: 0 auto;
 }
+#review .review-item {
+  justify-content: space-between;
+}
+#review .review-item .one {
+  margin-top: 160px;
+}
+#review .review-item .three {
+  margin-top: 160px;
+}
+#review .review-item .review-zero {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all linear 0.3s;
+}
+#review .review-item .review-zero:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  transform: scale(102%);
+}
+#review .review-item .review-zero .review-one i {
+  font-size: 40px;
+  color: rgba(106, 77, 244, 0.1);
+}
+#review .review-item .review-zero .review-one p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  line-height: 26px;
+}
+#review .review-item .review-zero .review-one img {
+  margin-bottom: 30px;
+}
+#review .review-item .review-zero .review-one .review-man img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#review .review-item .review-zero .review-one .review-man .review-title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: #151515;
+  line-height: 120%;
+  cursor: pointer;
+}
+#review .review-item .review-zero .review-one .review-man .review-title p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  line-height: 26px;
+}
+#review .review-item .review-zero2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 155px;
+  transition: all linear 0.3s;
+}
+#review .review-item .review-zero2:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  transform: scale(102%);
+}
+#review .review-item .review-zero2 .review-one i {
+  font-size: 40px;
+  color: rgba(106, 77, 244, 0.1);
+}
+#review .review-item .review-zero2 .review-one p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  line-height: 26px;
+}
+#review .review-item .review-zero2 .review-one img {
+  margin-bottom: 30px;
+}
+#review .review-item .review-zero2 .review-one .review-man img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#review .review-item .review-zero2 .review-one .review-man .review-title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: #151515;
+  line-height: 120%;
+  cursor: pointer;
+}
+#review .review-item .review-zero2 .review-one .review-man .review-title p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  line-height: 26px;
+}
 
 #priching {
   background-color: #F3F3F3;
