@@ -49,6 +49,7 @@
             a{
                 @include fonts('Inter', 500, 20px, $primary_bgcolor);
                 line-height: 120%;
+                border-bottom: 2px solid $primary_bgcolor;
             }
         }
     }

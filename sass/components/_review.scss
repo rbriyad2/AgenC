@@ -124,7 +124,6 @@
 
     .review-item {
         justify-content: space-between;
-        overflow-x: hidden;
         .one{
             
         }
@@ -132,7 +131,7 @@
             
         }
         .review-zero {
-            @include pgap(20px, 20px, 15px, 15px);
+            @include pgap(54px, 54px, 58px, 58px);
             transition: all linear .3s;
             &:hover {
                 background: #FFFFFF;

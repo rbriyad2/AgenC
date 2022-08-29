@@ -1,0 +1,165 @@
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:78px) and (max-width:991px){
+    
+}
+@media (min-width:576px) and (max-width:767px){
+    
+}
+@media (max-width:575.99px){
+    .navbar {
+        margin-top: -7px;
+    }
+    .navbar button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 5px;
+    }
+    #banner .banner-conetent h1 {
+        padding-top: 16px;
+        font-weight: 700;
+        font-size: 29px;
+    }
+    #banner .banner-right .end::after {
+        display: none;
+    }
+    #banner .banner-conetent p {
+        font-size: 16px;
+        padding-right: 5px;
+        padding-left: 12px;
+    }
+    #banner .banner-conetent button {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #banner .banner-right .right picture img {
+        margin-top: 30px;
+    }
+    #banner .banner-right {
+        padding-left: 0px;
+    }
+    #banner .banner-right .right {
+        padding-left: 0px;
+    }
+
+    #banner .banner-right {
+        padding-left: 37px;
+    }
+    #banner .banner-right .left {
+        width: 0px;
+        height: 0px;
+ 
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #banner .banner-right-bottm .ban-left .img-bottom-shape {
+display: none;
+    }
+    #banner .banner-right-bottm .ban-left picture img {
+
+        padding-left: 19px;
+
+    }
+    .banner-right-bottm{
+        flex-direction: column-reverse;
+    }
+    #banner .banner-right-bottm {
+        padding-top: 30px;
+    }
+    #banner .banner-right-bottm .ban-left picture img {
+        padding-top: 30px;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+    #success .row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #success .row .success-item h3 {
+        font-size: 20px;
+    }
+    #success .row .success-item h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    #success .status {
+flex-direction: column-reverse;
+align-items: center;
+    }
+    #success .row .success-item h2 {
+        padding-bottom: 15px;
+    }
+    #success .status .satisfied h2 {
+        text-align: center;
+    }
+    #success {
+        padding-bottom: 50px;
+    }
+    #service .header h2 {
+        font-size: 44px;
+        line-height: 45px;
+        text-align: center;
+    }
+    #service .header p {
+        width: 100%;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 18px;
+    }
+
+    #service .service-item .service-content p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 47px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #service .header{
+        text-align: start !important;
+    }
+    #service .service-item .service-img {
+        padding-top: 0px;
+    }
+    #recent-work .header {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #recent-work .header p {
+        font-size: 17px;
+        line-height: 23px;
+        width: 100%;
+    }
+    #recent-work .row .recent-work-item .recent-work-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #recent-work .row .recent-work-item .recent-work-content p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 3px;
+    }
+    #recent-work {
+        padding-bottom: 50px;
+    }
+    #review .row .review-fast-content h2 {
+        margin-top: 50px;
+    }
+    .review-fast-content{
+        text-align: center;
+    }
+
+
+}

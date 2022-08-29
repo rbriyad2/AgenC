@@ -220,6 +220,7 @@ html {
   font-size: 20px;
   color: #6A4DF4;
   line-height: 120%;
+  border-bottom: 2px solid #6A4DF4;
 }
 
 #service {
@@ -462,10 +463,10 @@ html {
   justify-content: space-between;
 }
 #review .review-item .review-zero {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  padding-left: 58px;
+  padding-right: 58px;
   transition: all linear 0.3s;
 }
 #review .review-item .review-zero:hover {

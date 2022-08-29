@@ -8,4 +8,9 @@ $(function(){
         centerMode: true,
         centerPadding: '0px',
       });
+
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1500
+    });
 })
